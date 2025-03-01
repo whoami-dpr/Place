@@ -1,4 +1,4 @@
-SPOT - Licencia de Uso Restringido  
+Place - Licencia de Uso Restringido  
 Copyright (C) 2025 Joaquin Montes y Santiago Talavera
 
 Este software y su código fuente están protegidos por derechos de autor.  
