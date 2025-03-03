@@ -1,4 +1,5 @@
 import RegisterParking from "@/components/Home/RegisterParking";
+import RegisterVehicle from "@/components/Home/RegisterVehicle";
 import YourReservation from "@/components/Home/YourReservation";
 
 const Home = () => {
@@ -10,6 +11,10 @@ const Home = () => {
 
       <section>
         <RegisterParking />
+      </section>
+
+      <section>
+        <RegisterVehicle />
       </section>
     </>
   );
