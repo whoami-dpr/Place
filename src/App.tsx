@@ -1,14 +1,13 @@
-import { useRoutes } from "react-router";
-import Home from "./pages/Home";
+import { Route, Routes } from "react-router";
+
+import Home from "./pages/Home/Home";
 
 const App = () => {
-  const routes = useRoutes(
-    [
-      {path: '/', element: <Home />}
-    ]
-  )
-
-  return routes
+  return (
+    <Routes>
+      <Route index element={<Home />} />
+    </Routes>
+  );
 };
 
 export default App;
