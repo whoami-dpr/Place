@@ -1,4 +1,5 @@
 import Hero from "@/components/Home/Hero";
+import InfoSection from "@/components/Home/InfoSection";
 import RegisterParking from "@/components/Home/RegisterParking";
 import RegisterVehicle from "@/components/Home/RegisterVehicle";
 import SectionPlace from "@/components/Home/SectionPlace";
@@ -20,13 +21,14 @@ const Home = () => {
       <section>
         <YourReservation />
       </section>
-
       <section>
         <RegisterParking />
       </section>
-
       <section>
         <RegisterVehicle />
+      </section>
+      <section>
+        <InfoSection />
       </section>
     </>
   );
