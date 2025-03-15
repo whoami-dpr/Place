@@ -5,7 +5,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='font-roboto-flex overflow-x-hidden fixed top-0 w-full bg-white z-50'>
+            <div className='font-roboto-flex fixed top-0 w-full bg-white z-50'>
                 <div className="flex justify-between items-center px-6 pt-4">
                 {/* Navegation Desktop */}
                     <div className='sm:flex items-center gap-5'>
