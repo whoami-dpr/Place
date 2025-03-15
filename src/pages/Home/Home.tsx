@@ -1,10 +1,11 @@
 import Hero from "@/components/Home/Hero";
-import InfoSection from "@/components/Home/InfoSection";
+import SectionReservation from "@/components/Home/SectionReservation";
+import SectionPlace from "@/components/Home/SectionPlace";
+import YourReservation from "@/components/Home/YourReservation";
 import RegisterParking from "@/components/Home/RegisterParking";
 import RegisterVehicle from "@/components/Home/RegisterVehicle";
-import SectionPlace from "@/components/Home/SectionPlace";
-import SectionReservation from "@/components/Home/SectionReservation";
-import YourReservation from "@/components/Home/YourReservation";
+import InfoSection from "@/components/Home/InfoSection";
+import Footer from "@/components/Home/Footer";
 
 const Home = () => {
   return (
@@ -29,6 +30,9 @@ const Home = () => {
       </section>
       <section>
         <InfoSection />
+      </section>
+      <section>
+        <Footer />
       </section>
     </>
   );
