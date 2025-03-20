@@ -1,5 +1,6 @@
 import HeroPartner from "@/components/Partner/HeroPartner"
 import RegisterCarport from "@/components/Partner/RegisterCarport"
+import WhyPlaceSection from "@/components/Partner/WhyPlaceSection"
 
 const Partner = () => {
 
@@ -10,6 +11,9 @@ const Partner = () => {
       </section>
       <section>
         <RegisterCarport />
+      </section>
+      <section>
+        <WhyPlaceSection />
       </section>
     </>
   )
